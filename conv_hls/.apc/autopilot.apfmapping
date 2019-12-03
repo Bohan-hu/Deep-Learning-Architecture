@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="conv.cpp" path="D:\hls_labs\conv\conv.cpp"/>
+    <originFiles name="conv.cpp" path="D:\hls_labs\conv\conv.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="conv_test.cpp" path="D:\hls_labs\conv\conv_test.cpp"/>
+    <originFiles name="conv_test.cpp" path="D:\hls_labs\conv\conv_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

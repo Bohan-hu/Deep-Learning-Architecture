@@ -1,0 +1,121 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "conv",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "port",
+                "value": "return",
+                "positionalBoolean": "4"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "m_axi",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "depth",
+                "value": "1024"
+              },
+              {
+                "name": "port",
+                "value": "A",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "offset",
+                "value": "slave"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "m_axi",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "depth",
+                "value": "1024"
+              },
+              {
+                "name": "port",
+                "value": "kernel",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "offset",
+                "value": "slave"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "m_axi",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "depth",
+                "value": "1024"
+              },
+              {
+                "name": "port",
+                "value": "out",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "offset",
+                "value": "slave"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv",
+          "label": "Col",
+          "functionLabel": "",
+          "pragma": {
+            "name": "PIPELINE",
+            "option": [{
+                "name": "II",
+                "value": "1"
+              }]
+          }
+        }
+      ]
+    }]}

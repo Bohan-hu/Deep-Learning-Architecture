@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Dec  2 16:50:28 2019
+# Process ID: 8956
+# Current directory: D:/hls_labs/conv/conv_hls/solution2/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: D:/hls_labs/conv/conv_hls/solution2/impl/ip/vivado.log
+# Journal file: D:/hls_labs/conv/conv_hls/solution2/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

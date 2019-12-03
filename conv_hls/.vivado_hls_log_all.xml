@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-21] The critical path in module 'conv' consists of the following:&#xD;&#xA;&#x9;'mul' operation of DSP[98] ('tmp_21', conv.cpp:33) [69]  (3.36 ns)&#xD;&#xA;&#x9;'add' operation of DSP[98] ('tmp_31', conv.cpp:33) [98]  (3.02 ns)&#xD;&#xA;&#x9;'add' operation ('out6_sum', conv.cpp:33) [100]  (2.49 ns)" projectName="conv_hls" solutionName="solution2" date="2019-12-02T16:50:08.173+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (8.87262ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." projectName="conv_hls" solutionName="solution2" date="2019-12-02T16:50:08.170+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule bus request on port 'gmem' (conv.cpp:24) due to limited memory ports. Please consider using a memory core with more ports or partitioning the array." projectName="conv_hls" solutionName="solution2" date="2019-12-02T16:50:08.134+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv/out' to 'conv/out_r' to avoid the conflict with HDL keywords or other object names." projectName="conv_hls" solutionName="solution2" date="2019-12-02T16:50:07.894+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv/out' to 'conv/out_r' to avoid the conflict with HDL keywords or other object names." projectName="conv_hls" solutionName="solution1" date="2019-12-02T16:44:23.684+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
